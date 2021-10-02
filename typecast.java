@@ -1,12 +1,11 @@
+
 public class typecast {
    
-    public static void main(String[] args) {
-        
-        float a=10.5f;
-        float b=20.3f;
+  public static void main(String[] args) {
+    int myInt = 18;
+    double myDouble = myInt; //int to double
 
-        int c=(int) (a+b);
-
-        System.out.println(c);
-    }
+    System.out.println(myInt);      // Output will be 18
+    System.out.println(myDouble);   // Outputs will be 18.0
+  }
 }
